@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(../img/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a{
+  text-decoration:none; 
+  color:#fff;
+  margin:5px;
+}
+
+.unicah{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: normal;
+  padding: 14px 0;
+}
+
+.logounicah{
+  align-items: center;
+}
+
+.logounicah img{
+  height: auto;
+  display: block;
+  max-width: 88px;
+  min-width: 88px;
+  position: absolute;
+  z-index: 50;
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
+  top: 18%;
+}
+
+header{
+  margin-top: 0px;
+  margin: 0px;
+  height: 70px;
+}
+
+header div {
+  margin-top: 0px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: rgba(0, 0, 0, .6);
+  color: white;
+  position: fixed;
+  z-index: 100;
+  font-size: 18px;
+  font-style: "Helvetica";
+}
+
+header div span{
+  font-size: 14px;
+  font-style: "Helvetica";
+}
+
+.contenedor .form .form-date{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #0064C5;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: gray;
+  font-family: "Helvetica";
+ -webkit-box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.7) inset !important;
+}
+
+.contenedor .form .form-header .form-title{
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #0064C5;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.contenedor .form .form-header .form-title span{
+  color: #fff;
+}
+
+.contenedor .form{
+  background: rgba(0, 0, 0, .5);
+  width: 70%;
+  max-width: 500px;
+  min-width: 350px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+  box-shadow: -5px -6px 21px -10px;
+}
+
+.contenedor .form .form-label {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Helvetica";
+  margin-top:20px;
+  position: relative;
+  height: 25px;
+}
+
+.contenedor .form .label-error { 
+  color: #FFFFFF;
+  text-shadow: 0.5px 0.5px #FF5555;
+  font-size: 16px;
+  font-family: "Helvetica";  
+  position: relative;
+  height: 25px;
+}
+
+.contenedor .form .form-input, .form-textarea{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #0064C5;
+  width: 100%;
+  padding: 12px;  
+  border-radius: 2px;
+  font-size: 14px;
+  color: #000;
+  font-family: "Helvetica";
+ -webkit-box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.7) inset !important;
+}
+
+.contenedor .form .form-textarea {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
+}
+
+.contenedor .form div {
+  height: 60px;
+}
+.contenedor .form div .form-radio{
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: "Helvetica";
+  margin-right: 10px;
+}
+
+.contenedor .form .btn-submit {
+  width: 100%;
+  font-family: "Helvetica";
+  outline: none;
+  background: #0064C5;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all .5s ease;
+  border-radius: 8px;
+}
+
+.contenedor .form .btn-submit:hover {
+  background:#4A9EEF;
+}

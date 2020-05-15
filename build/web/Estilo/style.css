@@ -1,0 +1,130 @@
+body{
+    background: gray;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+.back{
+    position:relative;
+    background-image: url('../img/fondo.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+h1{
+    color: white;    
+    background-size: cover;
+    font-family:'Playfair Display', Regular;
+    text-shadow: 2px 2px grey;
+    margin-bottom: 1vh;
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    display:block;
+    position:absolute;
+    left: 172px;
+    top:-50px;
+    margin:0px auto;   
+    z-index: 4;
+    border:0;
+}
+
+.marco{
+    margin:auto;
+    max-width:70%;
+}
+
+.contenedor{   
+    position:relative;    
+    height:450px;
+    width:450px;
+    margin: 4em auto;  
+    background-color:rgba(0,0,0,0.6);
+    border: 0px;    
+    box-sizing: border-box;     
+    text-align: center;
+    border-radius: 5px;  
+}
+
+.userForm{
+    display:block;
+    
+}
+.style_label{
+    display:block;    
+    margin:1em auto 1em auto;
+    font-size: 25px;
+}
+
+.style_input{
+    display:block;
+    border-radius: 5px;
+    margin:2em auto 2em auto;
+    width: 320px;
+    height: 40px;
+    border: 1px solid #E3E3E3;
+    
+}
+.style_button{
+    display:block;
+    border-radius: 5px;
+    margin:2em auto 2em auto;
+    width: 320px;
+    height: 40px;
+    text-align: center;
+    background: #080A9B;
+    border: 1px solid #080A9B;
+    color: white;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.recuperar{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+@media(max-width:590px){
+    .marco{
+        margin:auto;
+        max-width:100%;
+    }
+}
+/*
+@media(min-width:480px){
+    .tam_m{
+        width: 50vw;
+        margin-left: 25vw;
+    }
+}
+
+@media(min-width:480px){
+    .tam_m{
+        width: 40vw;
+        margin-left: 30vw;
+    }
+}
+
+@media(min-width:760px){
+    .tam_m{
+        width: 40vw;
+        margin-left: 30vw;
+    }
+}
+@media(min-width:1024px){
+    .tam_m{
+        width: 40vw;
+        margin-left: 30vw;
+    }
+}
+@media(min-width:2300px){
+    .tam_m{
+        width: 100vw;
+    }
+}*/

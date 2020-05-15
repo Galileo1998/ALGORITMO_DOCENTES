@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    
+    <servlet>
+        <servlet-name>iniciar</servlet-name>
+        <servlet-class>Controlador.inicioSesion</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>iniciar</servlet-name>
+        <url-pattern>/iniciar</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>MantenimientoUsuarios</servlet-name>
+        <servlet-class>Controlador.MantenimientoUsuarios</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MantenimientoUsuarios</servlet-name>
+        <url-pattern>/Usuarios</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>MantenimientoPerfiles</servlet-name>
+        <servlet-class>Controlador.MantenimientoPerfiles</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MantenimientoPerfiles</servlet-name>
+        <url-pattern>/Perfiles</url-pattern>
+    </servlet-mapping>    
+    
+    <servlet>
+        <servlet-name>cerrarSession</servlet-name>
+        <servlet-class>Controlador.cerrarSession</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cerrarSession</servlet-name>
+        <url-pattern>/cerrar</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>FormularioUsuario</servlet-name>
+        <servlet-class>Controlador.FormularioUsuario</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormularioUsuario</servlet-name>
+        <url-pattern>/Usuario</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>FormularioPerfil</servlet-name>
+        <servlet-class>Controlador.FormularioPerfil</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormularioPerfil</servlet-name>
+        <url-pattern>/Perfil</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FormularioCarga</servlet-name>
+        <url-pattern>/ListaCargas</url-pattern>
+    </servlet-mapping>   
+    <servlet-mapping>
+        <servlet-name>FormularioCargaAcademica</servlet-name>
+        <url-pattern>/Carga</url-pattern>
+    </servlet-mapping> 
+    <session-config>
+        <session-timeout>
+            10
+        </session-timeout>
+    </session-config>
+    <property name="c3p0.min_size">5</property>
+    <property name="c3p0.max_size">20</property>
+    <property name="c3p0.timeout">1800</property>
+    <property name="c3p0.max_statements">50</property>
+    <property name="connection.provider_class">
+   org.hibernate.connection.C3P0ConnectionProvider</property>
+</web-app>

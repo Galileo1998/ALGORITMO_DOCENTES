@@ -1,0 +1,115 @@
+body{
+  background: url(../img/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header{
+  height: 70px;
+}
+
+header div {
+  margin: 0px;
+  left: 0%;
+  top:0%;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: rgba(0, 0, 0, .6);
+  color: white;
+  position: fixed;
+  z-index: 100;
+  font-size: 18px;
+  font-style: "Helvetica";
+}
+
+header div span{
+  font-size: 14px;
+  font-style: "Helvetica";
+}
+
+h1{
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  padding: 14px 0;
+}
+.contenedor{
+    
+    width: 80%;
+    margin: auto;
+    padding: 15px 35px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    
+}
+table{
+    margin: auto;
+    margin-top: 15px;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    text-align: center;
+    color: white;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    border-collapse: collapse;
+    
+}
+td {
+  height: 50px;
+  font-weight: bold;
+}
+tr:nth-child(even) {background-color: rgba(0, 0, 0, .5);}
+
+th {
+  background-color: rgba(29, 42, 84, .5);
+  color: white;
+  height: 30px;
+}
+a{
+    text-decoration:none; 
+    color:#fff;
+    margin-left:5px;
+    margin-right: 5px;
+}
+button {
+  width: 60px;
+  font-family: "Helvetica";
+  background: rgba(0, 0, 0, .8);
+  
+  font-size: 12px;
+  border: none;
+  color: #fff;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: all .5s ease;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.busqueda{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+input{
+    border: none;
+  outline: none;
+    height: 25px;
+    border-radius: 2px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, .5);
+    border-bottom: 2px solid white;
+    padding: 4px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: white;
+  font-family: "Helvetica";
+ /*-webkit-box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.7) inset !important;*/
+ 
+}
